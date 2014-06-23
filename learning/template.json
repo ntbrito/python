@@ -1,0 +1,22 @@
+{
+   "s3_bucket":
+    {
+      "aws_access_key": "AMAZON-KEY",
+      "aws_secret_key": "AMAZON-SECRET-KEY",
+      "bucket_name": "BUCKET",
+      "path": "PROJECT-NAME"
+    },
+ 
+   "sites": [
+    {
+      "site_name": "use.the.site.name here as it will identify the sql file",
+      "comment": "Useful if you want to disable backups for the DB - put the string 'Do not backup' here",
+      "database": {
+        "database_name": "DATABASE-NAME",
+        "database_user": "USER-NAME",
+        "database_ip": "Host where the database is running",
+        "database_passwd": "PASSWORD",
+        "database_host": "String identifying the host (this is not used at the moment)"}
+    }
+   ]
+}
