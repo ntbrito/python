@@ -1,6 +1,3 @@
-python
-======
-
 Python scripts
 ==
 
