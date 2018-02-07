@@ -1,0 +1,7 @@
+{
+  "mfadevice":
+  {
+    "<account_name01>": "arn:aws:iam::<account_no>:mfa/<user>",
+    "<account_name02>": "arn:aws:iam::<account_no>:mfa/<user>"
+  }
+}
